@@ -5,7 +5,7 @@ Aim: Given an integer K, find the longest substring that appears in the text at 
 Approach to the solution:
 1. Construct SuffixArray (SA) -->O(nlogn)
 
-2.Find LCP(Longest Common Prefix) of every 2 consecutive suffixes (i and i+1) as per the SA built in previous step.
+2. Find LCP(Longest Common Prefix) of every 2 consecutive suffixes (i and i+1) as per the SA built in previous step.
 Kasai Algo used for LCP construction--> O(n) for Kasai and O(nlogn) for SuffixArray
 The algorithm constructs LCP array from suffix array and input text in O(n) time.
 
